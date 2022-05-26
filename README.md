@@ -19,6 +19,6 @@ We will store student data in our db.json file.
 
 ## Features
 
-Individual cards for students
-Search bar to find classmates
-Form to submit shoutouts for fellow classmates
+* Individual cards for students
+* Search bar to find classmates
+* Form to submit shoutouts for fellow classmates
