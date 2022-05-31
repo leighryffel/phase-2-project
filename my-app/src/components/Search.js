@@ -1,8 +1,15 @@
 import React from 'react'
 
-function Search() {
+function Search({search, setSearch}) {
   return (
-    <div className="search">Search for a Student</div>
+    <div className="search">
+      <label>Search for a Classmate: </label>
+      <input
+        value={search}
+        onChange={e => setSearch(e.target.value)}
+        placeholder="Search..."
+      />
+    </div>
   )
 }
 

@@ -1,14 +1,14 @@
-import react, {useState, useEffect} from "react";
-import Form from "./Form";
+import React, { useState, useEffect } from "react";
 import Header from "./Header";
 import NavBar from "./NavBar";
-import Search from "./Search"
 import Shoutouts from "./Shoutouts";
+import Search from "./Search";
 import StudentContainer from "./StudentContainer";
 
 function App() {
-  
   const [cards, setCards] = useState([]);
+  const [search, setSearch] = useState("");
+
 
   useEffect(() => {
     fetch("http://localhost:3000/students")
@@ -16,14 +16,16 @@ function App() {
       .then((data) => setCards(data));
   }, []);
 
+  const filteredCards = cards.filter((card) => (
+    card.name.toLowerCase().includes(search.toLowerCase())
+  ))
   return (
     <div className="App">
       <Header />
       <NavBar />
       <Shoutouts />
-      <Search />
-      <StudentContainer cards={cards}/>
-      <Form />
+      <Search search={search} setSearch={setSearch}/>
+      <StudentContainer cards={filteredCards} />
     </div>
   );
 }
