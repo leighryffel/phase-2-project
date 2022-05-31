@@ -1,0 +1,22 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "leigh",
+      "pronouns": "she/her",
+      "fun_fact": "ZZZZZ"
+    },
+    {
+      "id": 2,
+      "name": "norah",
+      "pronouns": "she/her",
+      "fun_fact": "ZZZZZ"
+    },
+    {
+      "id": 3,
+      "name": "ludwig",
+      "pronouns": "he/him",
+      "fun_fact": "ZZZZZs"
+    }
+  ]
+}
