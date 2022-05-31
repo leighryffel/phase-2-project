@@ -9,9 +9,8 @@ function StudentCard({name, age, pronouns }) {
   return (
     <div className="card">
       <div className="container">
-        <h4><b>Name: {name}</b></h4>
+        <h2><b>{name}</b></h2>
         <p>Age: {age}</p>
-        <p>Pronouns: {pronouns}</p>
         <button onClick={handleClick}>Fun Fact!</button>
       </div>
     </div>
