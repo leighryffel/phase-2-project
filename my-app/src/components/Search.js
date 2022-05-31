@@ -2,7 +2,7 @@ import React from 'react'
 
 function Search() {
   return (
-    <div>Search for a Student</div>
+    <div className="search">Search for a Student</div>
   )
 }
 

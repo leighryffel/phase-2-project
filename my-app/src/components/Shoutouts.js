@@ -2,12 +2,8 @@ import React from 'react'
 
 function Shoutouts() {
   return (
-    <div>
-      <h3>Shoutouts</h3>
-      <form>
-        <label>Submit a Shoutout: </label>
-        <input type="text"></input>
-      </form>
+    <div className="shoutout">
+      <h4>DISPLAY SHOUTOUTS HERE</h4>
     </div>
   )
 }

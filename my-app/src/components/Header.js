@@ -2,7 +2,9 @@ import React from 'react'
 
 function Header() {
   return (
-    <div>WEBPAGE HEADER</div>
+    <div className="header">
+      <h1>CLASS OF 042522 YEARBOOK</h1>
+    </div>
   )
 }
 

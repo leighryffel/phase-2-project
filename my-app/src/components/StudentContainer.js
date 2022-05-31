@@ -1,13 +1,14 @@
 import React from 'react'
 import StudentCard from "./StudentCard";
 
-function StudentContainer() {
+function StudentContainer({ cards }) {
+  const studentList = cards.map((card) => (
+    <StudentCard key={card.id} name={card.name} age={card.age} cards={cards}/>
+  ))
+
   return (
-    <div>
-    <h2>STUDENT LIST</h2>
-      <StudentCard />
-      <StudentCard />
-      <StudentCard />
+    <div className="container">
+      {studentList}
     </div>
   )
 }
