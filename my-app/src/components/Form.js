@@ -7,13 +7,13 @@ function Form({ addShoutout }) {
   });
 
   function handleChange(e) {
-    const {name, value} = e.target
-    setFormData({...formData, [name]: value})
+    const { name, value } = e.target;
+    setFormData({ ...formData, [name]: value });
   }
 
   function handleSubmit(e) {
-    e.preventDefault()
-    addShoutout(formData)
+    e.preventDefault();
+    addShoutout(formData);
   }
 
   return (
@@ -26,21 +26,19 @@ function Form({ addShoutout }) {
           placeholder="Name"
           name="name"
           onChange={handleChange}
-          style={{ margin: 15, padding: 12}}
+          style={{ margin: 15, padding: 12 }}
         />
         <label>Shoutout: </label>
         <input
           type="text"
-          placeholder="Why are they awesome?"
+          placeholder="Why are they great?"
           name="shoutout"
           onChange={handleChange}
-          style={{ margin: 15, padding: 12}}
+          style={{ margin: 15, padding: 12 }}
         />
-        <button
-          className="button"
-          type="submit"
-          style={{padding:12 }}
-        >Submit!</button>
+        <button className="button" type="submit" style={{ padding: 12 }}>
+          Submit!
+        </button>
       </form>
     </div>
   );

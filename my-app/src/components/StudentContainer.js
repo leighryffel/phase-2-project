@@ -3,7 +3,12 @@ import StudentCard from "./StudentCard";
 
 function StudentContainer({ cards }) {
   const studentList = cards.map((card) => (
-    <StudentCard key={card.id} name={card.name} age={card.age} cards={cards} />
+    <StudentCard
+      key={card.name}
+      name={card.name}
+      age={card.age}
+      pronouns={card.pronouns}
+    />
   ));
 
   return <div className="container">{studentList}</div>;
