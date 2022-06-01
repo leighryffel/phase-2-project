@@ -1,123 +1,123 @@
 {
-  "students": [
+  "yearbook": [
     {
       "name": "Akilah",
-      "age": 0,
-      "fun_fact": ""
+      "zodiac_sign": "",
+      "fun_fact": "I used to live in Hawaii!"
     },
     {
       "name": "Corey",
-      "age": 0,
+      "zodiac_sign": "",
       "fun_fact": ""
     },
     {
       "name": "Em",
-      "age": 0,
+      "zodiac_sign": "",
       "fun_fact": "In another life, I was an actor (and lived in Utah!)"
     },
     {
       "name": "Iggy",
-      "age": 28,
+      "zodiac_sign": "",
       "fun_fact": "I played professional ultimate frisbee for New York Empire"
     },
     {
       "name": "James",
-      "age": 28,
+      "zodiac_sign": "",
       "fun_fact": "I traveled through Tanzania, Africa"
     },
     {
       "name": "Jonathan",
-      "age": 0,
+      "zodiac_sign": "",
       "fun_fact": ""
     },
     {
       "name": "Kenneth",
-      "age": 0,
+      "zodiac_sign": "",
       "fun_fact": ""
     },
     {
       "name": "Leigh",
-      "age": 28,
+      "zodiac_sign": "Leo",
       "fun_fact": "ZZZZZ"
     },
     {
       "name": "Ludwig",
-      "age": 28,
+      "zodiac_sign": "Gemini",
       "fun_fact": "ZZZZZ"
     },
     {
       "name": "Mark",
-      "age": 28,
+      "zodiac_sign": "",
       "fun_fact": "I would rather play dungeons and dragons everyday than do anything else"
     },
     {
       "name": "Micaela",
-      "age": 0,
+      "zodiac_sign": "",
       "fun_fact": ""
     },
     {
       "name": "Norah",
-      "age": 28,
-      "fun_fact": "ZZZZZ"
+      "zodiac_sign": "",
+      "fun_fact": "I taught English in Vietnam"
     },
     {
       "name": "Nyi Nyi",
-      "age": 0,
+      "zodiac_sign": "",
       "fun_fact": ""
     },
     {
       "name": "Omar",
-      "age": 0,
+      "zodiac_sign": "",
       "fun_fact": ""
     },
     {
       "name": "Oswaldo",
-      "age": 0,
+      "zodiac_sign": "",
       "fun_fact": ""
     },
     {
       "name": "Peachy",
-      "age": 28,
+      "zodiac_sign": "",
       "fun_fact": "I studied African drumming and dance for four years when I was younger. And I still remember the drumming!"
     },
     {
       "name": "Robert",
-      "age": 0,
+      "zodiac_sign": "",
       "fun_fact": ""
     },
     {
       "name": "Sinclair",
-      "age": 0,
+      "zodiac_sign": "",
       "fun_fact": ""
     },
     {
       "name": "Tashi",
-      "age": 0,
+      "zodiac_sign": "",
       "fun_fact": ""
     },
     {
       "name": "William",
-      "age": 0,
+      "zodiac_sign": "",
       "fun_fact": ""
     },
     {
       "name": "Yax",
-      "age": 0,
+      "zodiac_sign": "",
       "fun_fact": ""
     },
     {
       "name": "Yeming",
-      "age": 28,
+      "zodiac_sign": "",
       "fun_fact": "I wore winter clothes from October to May this year"
     },
     {
       "name": "Yixin",
-      "age": 0,
+      "zodiac_sign": "Sagittarius",
       "fun_fact": ""
     },
     {
       "name": "Mohammad",
-      "age": 0,
+      "zodiac_sign": "",
       "fun_fact": ""
     }
   ]

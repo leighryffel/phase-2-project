@@ -3,7 +3,7 @@ import React, { useState } from "react";
 function Form({ addShoutout }) {
   const [formData, setFormData] = useState({
     name: "",
-    shoutout: "",
+    content: "",
   });
 
   function handleChange(e) {
@@ -32,7 +32,7 @@ function Form({ addShoutout }) {
         <input
           type="text"
           placeholder="Why are they great?"
-          name="shoutout"
+          name="content"
           onChange={handleChange}
           style={{ margin: 15, padding: 12 }}
         />

@@ -1,24 +1,28 @@
 import React, { useState } from "react";
-import Form from "./Form"
+import Form from "./Form";
+import ShoutoutCard from "./ShoutoutCard";
 
 function Shoutouts() {
-  const [shoutout, setShoutout] = useState({
-    name: "Leigh",
-    shoutout: "She rocks!"
-  });
+  const [shoutouts, setShoutouts] = useState([
+    {
+      name: "Our cohort",
+      content: "We rock!",
+    },
+  ]);
 
-  function addShoutout(newData){
-    setShoutout(newData)
+  function addShoutout(newData) {
+    setShoutouts([...shoutouts, newData]);
   }
+
+  const shoutoutList = shoutouts.map((shoutout) => {
+    return <ShoutoutCard name={shoutout.name} content={shoutout.content} />;
+  });
 
   return (
     <div className="shoutout">
-      <h4><b>Shoutout to...</b></h4>
-      <div className="shoutoutCard">
-        <h4><b>{shoutout.name}</b></h4>
-        <p>{shoutout.shoutout}</p>
-      </div>
-        <Form addShoutout={addShoutout}/>
+      <h1>Shoutout to...</h1>
+      {shoutoutList}
+      <Form addShoutout={addShoutout} />
     </div>
   );
 }
