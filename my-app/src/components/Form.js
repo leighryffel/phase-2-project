@@ -16,6 +16,14 @@ function Form({ addShoutout }) {
     addShoutout(formData);
   }
 
+  function handleMouseLeave(e){
+    e.target.style.background = ""
+  }
+
+  function changeBackground(e){
+    e.target.style.background = '#4cc9f0'
+  }
+
   return (
     <div className="form" onSubmit={handleSubmit}>
       <h3>Submit A Shoutout Below:</h3>
@@ -25,6 +33,8 @@ function Form({ addShoutout }) {
           type="text"
           placeholder="Name"
           name="name"
+          onMouseOver={changeBackground}
+          onMouseOut={handleMouseLeave}
           onChange={handleChange}
           style={{ margin: 15, padding: 12 }}
         />
@@ -33,6 +43,8 @@ function Form({ addShoutout }) {
           type="text"
           placeholder="Why are they great?"
           name="content"
+          onMouseOver={changeBackground}
+          onMouseOut={handleMouseLeave}
           onChange={handleChange}
           style={{ margin: 15, padding: 12 }}
         />

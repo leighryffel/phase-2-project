@@ -3,11 +3,16 @@ import { Link, NavLink } from "react-router-dom";
 
 const linkStyles = {
   display: "inline-block",
-  padding: "12px",
-  margin: "0px 6px 6px",
-  background: "white",
+  // width: "50px",
+  padding: "6px",
+  margin: "0 6px 6px",
+  background: "#4cc9f0",
   textDecoration: "none",
-  color: "black",
+  color: "white",
+  font: "Century Gothic",
+  fontSize: "20px",
+  borderRadius: "10px",
+  // border: "2px solid #f72585",
 };
 
 const headerImg = (
