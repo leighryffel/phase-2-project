@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.card {
+ /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+ box-shadow: 0 4px 8px #4cc9f0;
+ transition: 0.3s;
+ width: 25%;
+ display: inline-block;
+ text-align: center;
+ padding-top: 15px;
+ padding-bottom: 15px;
+ color: white;
+ background-image: linear-gradient(#4cc9f0, #560bad, #f72585);
+ /* background-image: linear-gradient(#8ecae6, #219ebc, #023047); */
+ margin-bottom: 10px;
+ margin-left: 2px;
+ margin-right: 2px;
+ font-family: Helvetica;
+}
+
+.studentButton {
+  font-family: Helvetica;
+  font-weight: bold;
+  /* color:#560bad;
+  background-color: #4cc9f0; */
+  padding: 5px;
+  border-radius: "10px";
+  border: "2px solid #eacdc2";
+
+}
+
+.card:hover {
+ box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+ text-align: center;
+ padding-top: 5px;
+ /* background: #caf0f8 */
+ /* background: #ffcfd8; */
+}
+
+.header {
+  text-align: center;
+  padding-top: 10px;
+  /* background-color: #1a1423; */
+  font-family: AvantaGarde;
+  color: #f72584f0;
+}
+
+.search {
+  text-align: center;
+  padding-top: 20px;
+  color: #560bad;
+  font-family: Helvetica;
+  padding: 20px;
+}
+
+.nav {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.shoutout {
+  text-align: center;
+  width: 100%;
+  padding-top: 20px;
+
+}
+
+.form {
+  text-align: center;
+  padding-top: 20px;
+  font-family: Helvetica;
+}
+
+.formItem {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: Helvetica;
+}
+
+.button {
+  background-color:rgb(0, 0, 0);
+  color: white;
+  font-family: Helvetica;
+}
+
+.shoutoutCard {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 25%;
+  display: inline-block;
+  padding-top: 5px;
+  background-image: radial-gradient(circle, rgb(242, 107, 35), rgb(233, 66, 233), rgb(241, 229, 97));
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  font-family: Helvetica;
+}
+
+.image {
+  max-width: 100%;
+  height: auto
+}
+
+a:link {
+  color: hotpink;
+}
+
+a:visited {
+  color: rgb(255, 255, 255);
+}
