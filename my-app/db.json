@@ -13,7 +13,7 @@
     {
       "name": "Em",
       "zodiac_sign": "Taurus ♉",
-      "fun_fact": "In another life, I was an actor (and lived in Utah!)"
+      "fun_fact": "In another life, I was an actor and lived in Utah!"
     },
     {
       "name": "Iggy",
@@ -54,6 +54,11 @@
       "name": "Micaela",
       "zodiac_sign": "Gemini ♊",
       "fun_fact": "I know 35 digits of Pi!"
+    },
+    {
+      "name": "Mohammad",
+      "zodiac_sign": "Sagittarius ♐",
+      "fun_fact": "I love cars!"
     },
     {
       "name": "Norah",
@@ -114,11 +119,6 @@
       "name": "Yixin",
       "zodiac_sign": "Capricorn ♑",
       "fun_fact": "I was borh on Christmas Day!"
-    },
-    {
-      "name": "Mohammad",
-      "zodiac_sign": "Sagittarius ♐",
-      "fun_fact": "I love cars!"
     }
   ]
 }

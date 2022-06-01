@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../CroppedClassPhoto.jpg";
+import image from "../images/CroppedClassPhoto.jpg";
 
 function ClassPhoto() {
   return (

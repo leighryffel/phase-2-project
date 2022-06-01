@@ -5,17 +5,27 @@ import ShoutoutCard from "./ShoutoutCard";
 function Shoutouts() {
   const [shoutouts, setShoutouts] = useState([
     {
-      name: "Our cohort",
-      content: "We rock!",
+      name: "Norah",
+      content: "She's got great style!",
     },
   ]);
 
   function addShoutout(newData) {
-    setShoutouts([...shoutouts, newData]);
+    if (newData.name !== "" && newData.content !== ""){
+      return(
+        setShoutouts([...shoutouts, newData])
+      )
+    }
   }
 
   const shoutoutList = shoutouts.map((shoutout) => {
-    return <ShoutoutCard name={shoutout.name} content={shoutout.content} />;
+    return (
+      <ShoutoutCard
+        key={shoutout.name}
+        name={shoutout.name}
+        content={shoutout.content}
+      />
+    );
   });
 
   return (

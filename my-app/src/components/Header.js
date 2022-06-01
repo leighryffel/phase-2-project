@@ -10,10 +10,19 @@ const linkStyles = {
   color: "black",
 };
 
+const headerImg = (
+  <img
+    src="https://emoji.slack-edge.com/T02MD9XTF/flatiron_slash/655617af4dbb35c0.png"
+    style={{ height: 25 }}
+  />
+);
+
 function Header() {
   return (
     <div className="header">
-      <h1>FLATIRON YEARBOOK: CLASS OF 04-25-22</h1>
+      <h1>
+        {headerImg} FLATIRON YEARBOOK: CLASS OF 04-25-22 {headerImg}{" "}
+      </h1>
       <Link style={linkStyles} className="a" to="/">
         Home
       </Link>
