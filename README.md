@@ -4,6 +4,12 @@
 
 We are creating a list of students in our cohort. We are providing information on each student. The goal of this page is to help our classmates learn about one another and to see our similarities and differences.
 
+## Notes Before Running
+1. Run **npm install**
+2. Run **json-server --watch db.json**
+3. Run **npm i react-dom-confetti**
+4. Run **npm start**
+
 ## Components
 
 1. App
