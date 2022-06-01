@@ -1,18 +1,27 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
 
+const linkStyles = {
+  display: "inline-block",
+  padding: "12px",
+  margin: "0px 6px 6px",
+  background: "white",
+  textDecoration: "none",
+  color: "black",
+};
+
 function Header() {
   return (
     <div className="header">
-      <h1>CLASS OF 042522 YEARBOOK</h1>
-      <Link className="a" to="/">
+      <h1>FLATIRON YEARBOOK: CLASS OF 04-25-22</h1>
+      <Link style={linkStyles} className="a" to="/">
         Home
       </Link>
-      <NavLink className="a" to="/studentlist">
-        View Students
+      <NavLink style={linkStyles} className="a" to="/studentlist">
+        Students
       </NavLink>
-      <NavLink className="a" to="/shoutouts">
-        Create a Shoutout
+      <NavLink style={linkStyles} className="a" to="/shoutouts">
+        Shoutouts
       </NavLink>
     </div>
   );

@@ -18,7 +18,7 @@ function Form({ addShoutout }) {
 
   return (
     <div className="form" onSubmit={handleSubmit}>
-      <h3>Submit a Shoutout</h3>
+      <h3>Submit Your Shoutout Below:</h3>
       <form className="formItem">
         <label>Classmate's Name: </label>
         <input
