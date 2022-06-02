@@ -12,9 +12,7 @@ function Shoutouts() {
   }, []);
 
   function addShoutout(newData) {
-    if (newData.name !== "" && newData.content !== "") {
       return setShoutouts([...shoutouts, newData]);
-    }
   }
 
   const shoutoutList = shoutouts.map((shoutout) => {

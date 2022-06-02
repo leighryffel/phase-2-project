@@ -12,18 +12,20 @@ function Form({ addShoutout }) {
   }
 
   function handleSubmit(e) {
-    e.preventDefault();
-    console.log(formData);
-    fetch("http://localhost:3000/shoutouts", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        "Accepts": "application/json",
-      },
-      body: JSON.stringify(formData),
-    })
-      .then((res) => res.json())
-      .then((newData) => addShoutout(newData));
+    if (formData.name !== "" && formData.content !== "") {
+      e.preventDefault();
+      console.log(formData);
+      fetch("http://localhost:3000/shoutouts", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "Accepts": "application/json",
+        },
+        body: JSON.stringify(formData),
+      })
+        .then((res) => res.json())
+        .then((newData) => addShoutout(newData));
+    }
   }
 
   function handleMouseLeave(e) {
