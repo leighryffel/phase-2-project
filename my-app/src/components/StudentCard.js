@@ -39,7 +39,7 @@ function StudentCard({ name, zodiac_sign, funFact }) {
           <h4>{funFact}</h4>
         </div>
       )}
-      <button onClick={handleToggle}>Fun Fact!</button>
+      <button className="button" onClick={handleToggle}>Fun Fact!</button>
       <Confetti active={ confetti } config={ confettiConfig }/>
     </div>
   );

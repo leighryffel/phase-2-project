@@ -78,12 +78,14 @@ body {
 .formItem {
   padding-left: 10px;
   padding-right: 10px;
-  font-family: Helvetica;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .button {
-  background-color: #4cc9f0;
+  background-color: #560bad;
   color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px;
 }
 
 .a:hover {

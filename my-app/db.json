@@ -57,7 +57,7 @@
     {
       "id": 10,
       "name": "Mark",
-      "zodiac_sign": "",
+      "zodiac_sign": "Scorpio ♏",
       "fun_fact": "I would rather play dungeons and dragons everyday than do anything else!"
     },
     {
@@ -76,7 +76,7 @@
       "id": 13,
       "name": "Norah",
       "zodiac_sign": "Scorpio ♏",
-      "fun_fact": "I taught English in Vietnam!"
+      "fun_fact": "I lived in Southeast Asia for 2 years!"
     },
     {
       "id": 14,
@@ -150,6 +150,11 @@
       "id": 1,
       "name": "Our cohort",
       "content": "We rock!"
+    },
+    {
+      "name": "iggy",
+      "content": "rocks my socks!",
+      "id": 2
     }
   ]
 }

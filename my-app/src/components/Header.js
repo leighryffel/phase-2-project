@@ -9,7 +9,7 @@ const linkStyles = {
   background: "#4cc9f0",
   textDecoration: "none",
   color: "white",
-  font: "Century Gothic",
+  font: "Arial",
   fontSize: "20px",
   borderRadius: "10px",
   // border: "2px solid #f72585",
