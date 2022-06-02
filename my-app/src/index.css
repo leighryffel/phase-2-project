@@ -67,6 +67,7 @@ body {
   text-align: center;
   width: 100%;
   padding-top: 20px;
+  color: #560bad;
 }
 
 .form {
@@ -81,7 +82,7 @@ body {
 }
 
 .button {
-  background-color:rgb(0, 0, 0);
+  background-color: #4cc9f0;
   color: white;
 }
 
@@ -96,7 +97,7 @@ body {
   width: 25%;
   display: inline-block;
   padding-top: 5px;
-  background-image: radial-gradient(circle, rgb(242, 107, 35), rgb(233, 66, 233), rgb(241, 229, 97));
+  background-image: linear-gradient(#f72585, #560bad, #4cc9f0);
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   text-align: center;
   padding-top: 15px;
@@ -104,6 +105,7 @@ body {
   margin-bottom: 10px;
   margin-left: 2px;
   margin-right: 2px;
+  color:white;
 }
 
 .shoutoutCard:hover {

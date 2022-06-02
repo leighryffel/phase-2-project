@@ -1,124 +1,155 @@
 {
   "yearbook": [
     {
+      "id": 1,
       "name": "Akilah",
       "zodiac_sign": "Capricorn ♑",
       "fun_fact": "I used to live in Hawaii!"
     },
     {
+      "id": 2,
       "name": "Corey",
       "zodiac_sign": "Gemini ♊",
       "fun_fact": "I love to cook!"
     },
     {
+      "id": 3,
       "name": "Em",
       "zodiac_sign": "Taurus ♉",
       "fun_fact": "In another life, I was an actor and lived in Utah!"
     },
     {
+      "id": 4,
       "name": "Iggy",
       "zodiac_sign": "Sagittarius ♐",
       "fun_fact": "I played professional ultimate frisbee for the New York Empire!"
     },
     {
+      "id": 5,
       "name": "James",
       "zodiac_sign": "Aries ♈",
       "fun_fact": "I traveled through Tanzania, Africa!"
     },
     {
+      "id": 6,
       "name": "Jonathan",
       "zodiac_sign": "Pisces ♓",
       "fun_fact": "I trained in Taekwondo for many years!"
     },
     {
+      "id": 7,
       "name": "Kenneth",
       "zodiac_sign": "Scorpio ♏",
       "fun_fact": "I've been to ten countries!"
     },
     {
+      "id": 8,
       "name": "Leigh",
       "zodiac_sign": "Leo ♌",
       "fun_fact": "I publish a newsletter about trending memes!"
     },
     {
+      "id": 9,
       "name": "Ludwig",
       "zodiac_sign": "Gemini ♊",
       "fun_fact": "I'm really good at Madden NFL!"
     },
     {
+      "id": 10,
       "name": "Mark",
       "zodiac_sign": "",
       "fun_fact": "I would rather play dungeons and dragons everyday than do anything else!"
     },
     {
+      "id": 11,
       "name": "Micaela",
       "zodiac_sign": "Gemini ♊",
       "fun_fact": "I know 35 digits of Pi!"
     },
     {
+      "id": 12,
       "name": "Mohammad",
       "zodiac_sign": "Sagittarius ♐",
       "fun_fact": "I love cars!"
     },
     {
+      "id": 13,
       "name": "Norah",
       "zodiac_sign": "Scorpio ♏",
       "fun_fact": "I taught English in Vietnam!"
     },
     {
+      "id": 14,
       "name": "Nyi Nyi",
       "zodiac_sign": "Cancer ♋",
       "fun_fact": "I love to play soccer!"
     },
     {
+      "id": 15,
       "name": "Omar",
       "zodiac_sign": "Pisces ♓",
       "fun_fact": "I once dislocated my shoulder by stretching!"
     },
     {
+      "id": 16,
       "name": "Oswaldo",
       "zodiac_sign": "Sagittarius ♐",
       "fun_fact": "I love NASCAR racing!"
     },
     {
+      "id": 17,
       "name": "Peachy",
-      "zodiac_sign": "",
+      "zodiac_sign": "Aries ♈",
       "fun_fact": "I studied African drumming and dance for four years when I was younger. And I still remember the drumming!"
     },
     {
+      "id": 18,
       "name": "Robert",
       "zodiac_sign": "Gemini ♊",
       "fun_fact": "I'm not actually a Gemini!"
     },
     {
+      "id": 19,
       "name": "Sinclair",
       "zodiac_sign": "Aquarius ♒",
       "fun_fact": "I love Dancehall and Reggaeton!"
     },
     {
+      "id": 20,
       "name": "Tashi",
       "zodiac_sign": "Virgo ♍",
       "fun_fact": "I can speak three languages!"
     },
     {
+      "id": 21,
       "name": "William",
       "zodiac_sign": "Pisces ♓",
       "fun_fact": "I love hiking!"
     },
     {
+      "id": 22,
       "name": "Yax",
       "zodiac_sign": "Aries ♈",
       "fun_fact": "I'm great at regular makeup and special effects makeup!"
     },
     {
+      "id": 23,
       "name": "Yeming",
       "zodiac_sign": "Pisces ♓",
-      "fun_fact": "I wore winter clothes from October to May this year"
+      "fun_fact": "I wore winter clothes from October to May this year!"
     },
     {
+      "id": 24,
       "name": "Yixin",
       "zodiac_sign": "Capricorn ♑",
-      "fun_fact": "I was borh on Christmas Day!"
+      "fun_fact": "I was born on Christmas Day!"
+    }
+  ],
+  "shoutouts": [
+    {
+      "id": 1,
+      "name": "Our cohort",
+      "content": "We rock!"
     }
   ]
 }

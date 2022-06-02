@@ -13,21 +13,31 @@ function Form({ addShoutout }) {
 
   function handleSubmit(e) {
     e.preventDefault();
-    addShoutout(formData);
+    console.log(formData);
+    fetch("http://localhost:3000/shoutouts", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        "Accepts": "application/json",
+      },
+      body: JSON.stringify(formData),
+    })
+      .then((res) => res.json())
+      .then((newData) => addShoutout(newData));
   }
 
-  function handleMouseLeave(e){
-    e.target.style.background = ""
+  function handleMouseLeave(e) {
+    e.target.style.background = "";
   }
 
-  function changeBackground(e){
-    e.target.style.background = '#4cc9f0'
+  function changeBackground(e) {
+    e.target.style.background = "#4cc9f0";
   }
 
   return (
-    <div className="form" onSubmit={handleSubmit}>
+    <div className="form">
       <h3>Submit A Shoutout Below:</h3>
-      <form className="formItem">
+      <form className="formItem" onSubmit={handleSubmit}>
         <label>Classmate's Name: </label>
         <input
           type="text"

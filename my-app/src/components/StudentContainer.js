@@ -7,7 +7,7 @@ function StudentContainer() {
   const [search, setSearch] = useState("");
 
   useEffect(() => {
-    fetch("http://localhost:3000/yearbook")
+    fetch(" http://localhost:3000/yearbook")
       .then((res) => res.json())
       .then((data) => setCards(data));
   }, []);
