@@ -150,6 +150,26 @@
       "id": 1,
       "name": "Our cohort",
       "content": "We rock!"
+    },
+    {
+      "name": "Em",
+      "content": "A fucking great person!!!!",
+      "id": 2
+    },
+    {
+      "name": "You guys",
+      "content": "Are great!",
+      "id": 3
+    },
+    {
+      "name": "akilah",
+      "content": "she's cool",
+      "id": 4
+    },
+    {
+      "name": "daphne",
+      "content": "shes not in our class",
+      "id": 5
     }
   ]
 }
